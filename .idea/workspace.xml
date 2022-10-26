@@ -15,7 +15,6 @@
       <change beforePath="$PROJECT_DIR$/../Lib/models/sdnet_inverse.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lib/utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../batch_run.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../experiments/debug.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../experiments/sdnet.yaml" beforeDir="false" />
@@ -36,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="300">
-                <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <first_editor relative-caret-position="570">
+                <caret line="38" column="77" lean-forward="true" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
               </first_editor>
               <second_editor />
             </state>
@@ -57,8 +56,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2173" />
-    <option name="y" value="107" />
+    <option name="x" value="-2183" />
+    <option name="y" value="62" />
     <option name="width" value="2159" />
     <option name="height" value="1276" />
   </component>
@@ -111,15 +110,15 @@
       <option name="presentableId" value="Default" />
       <updated>1665409520154</updated>
       <workItem from="1665409522699" duration="508000" />
-      <workItem from="1665410068875" duration="6289000" />
+      <workItem from="1665410068875" duration="6603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6797000" />
+    <option name="totallyTimeSpent" value="7111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2173" y="107" width="2159" height="1276" extended-state="0" />
+    <frame x="-2241" y="219" width="2159" height="1276" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08974965" />
@@ -179,8 +178,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <first_editor relative-caret-position="570">
+            <caret line="38" column="77" lean-forward="true" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
           </first_editor>
           <second_editor />
         </state>
