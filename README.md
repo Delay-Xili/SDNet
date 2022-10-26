@@ -1,9 +1,9 @@
 # SDNet — Revisiting Sparse Convolutional Model for Visual Recognition
 
 This repository contains the official PyTorch implementation of the paper: 
-[Xili Dai*](https://delay-xili.github.io/), Mingyang Li*, 
+[Xili Dai*](https://delay-xili.github.io/), [Mingyang Li*](), 
 [Pengyuan Zhai](https://billyzz.github.io/), [Shengbang Tong](https://tsb0601.github.io/petertongsb/),
-Xingjian Gao, [Shao-Lun Huang](https://sites.google.com/view/slhuang/), [Zhihui Zhu](https://www.cis.jhu.edu/~zhihui/index.html), 
+[Xingjian Gao](), [Shao-Lun Huang](https://sites.google.com/view/slhuang/), [Zhihui Zhu](https://www.cis.jhu.edu/~zhihui/index.html), 
 [Chong You](https://sites.google.com/view/cyou), [Yi Ma](https://people.eecs.berkeley.edu/~yima/). 
 ["Revisiting Sparse Convolutional Model for Visual Recognition"](https://arxiv.org/abs/2210.12945). NeurIPS 2022.
 
