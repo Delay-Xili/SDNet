@@ -36,4 +36,4 @@ mkdir data logs
 ```
 
 
-## Here, we will release code and checkpoints in the near future (Estimated 11th Nov)! Stay tuned!
+## Here, we will release code and checkpoints in the near future (Estimated 1st Dec)! Stay tuned!
