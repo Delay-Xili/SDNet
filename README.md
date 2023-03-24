@@ -37,7 +37,6 @@ conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 mkdir data logs
 ```
 
-
 ### Training
 
 To retrain the neural network from scratch on your own machine, execute the following commands 
