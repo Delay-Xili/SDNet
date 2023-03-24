@@ -104,7 +104,6 @@ You can also directly download the visualization results of the hidden features 
 </p>
 
 
-
 ## Citation
 
 If you find SDNet useful in your research, please consider citing:
