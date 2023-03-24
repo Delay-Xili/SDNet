@@ -42,7 +42,7 @@ _C.MODEL.STEP_SIZE = 0.1
 
 # DATASET related params
 _C.DATASET = CN()
-_C.DATASET.ROOT = '/home/peter/dxl/Code/SDNet/data/'
+_C.DATASET.ROOT = '/pth/to/data/'
 _C.DATASET.DATASET = 'cifar10'
 _C.DATASET.TRAIN_SET = 'train'
 _C.DATASET.TEST_SET = 'val'

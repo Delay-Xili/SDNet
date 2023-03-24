@@ -1,7 +1,7 @@
 # CUDA_VISIBLE_DEVICES=0 python train.py --cfg experiments/cifar10.yaml --dir_phase cifar10_sdnet18 LOG_DIR path/to/your/current/project
 
 VIZ: False
-LOG_DIR: '/home/peter/dxl/Code/SDNet-master/logs'
+LOG_DIR: '/pth/to/SDNet-master/logs'
 
 MODEL:
   NAME: 'sdnet18'    # 'sdnet18', 'sdnet34', 'sdnet18_all', 'sdnet34_all'

@@ -1,7 +1,7 @@
 # CUDA_VISIBLE_DEVICES=0 python train.py --cfg experiments/ImageNet.yaml --dir_phase imagenet_sdnet18 LOG_DIR path/to/your/current/project
 
 VIZ: False
-LOG_DIR: '/home/peter/dxl/Code/SDNet-master/logs'
+LOG_DIR: '/pth/to/SDNet-master/logs'
 WORKERS: 16
 
 MODEL:
@@ -22,7 +22,7 @@ MODEL:
     - 0.1
 
 DATASET:
-  ROOT: '/home/peter/Data/ILSVRC2012'
+  ROOT: '/pth/to/Data/ILSVRC2012'
   DATASET: 'imagenet'
 
 TRAIN:
