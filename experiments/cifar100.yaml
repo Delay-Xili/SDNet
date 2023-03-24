@@ -1,0 +1,39 @@
+# CUDA_VISIBLE_DEVICES=1 python train.py --cfg experiments/cifar100.yaml --dir_phase cifar100_sdnet18 LOG_DIR path/to/your/current/project
+
+VIZ: False
+LOG_DIR: '/home/peter/dxl/Code/SDNet-master/logs'
+
+MODEL:
+  NAME: 'sdnet18'    # 'sdnet18', 'sdnet34', 'sdnet18_all', 'sdnet34_all'
+
+  NUM_CLASSES: 100
+  IMAGE_SIZE:
+    - 32
+    - 32
+
+  NUM_LAYERS: 2      # num of iterations for fista algorithm
+  NONEGATIVE: True   # non-negative constrain for the feature z.
+  PAD_MODE: 'constant'  # 'constant', 'reflect', 'replicate', 'circular'
+
+  SHORTCUT: False
+  MU: 0.0            # parameter for L2
+  LAMBDA:            # parameter for L1
+    - 0.1
+
+DATASET:
+  ROOT: './data'
+  DATASET: 'cifar100'
+
+TRAIN:
+  OPTIMIZER: 'sgd'
+  MOMENTUM: 0.9
+  WD: 0.0005
+  NESTEROV: True
+  END_EPOCH: 220
+  BATCH_SIZE: 128
+
+  LR: 0.1
+  LR_SCHEDULER: 'cosine'
+
+
+

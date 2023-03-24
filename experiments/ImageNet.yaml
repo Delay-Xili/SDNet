@@ -1,0 +1,45 @@
+# CUDA_VISIBLE_DEVICES=0 python train.py --cfg experiments/ImageNet.yaml --dir_phase imagenet_sdnet18 LOG_DIR path/to/your/current/project
+
+VIZ: False
+LOG_DIR: '/home/peter/dxl/Code/SDNet-master/logs'
+WORKERS: 16
+
+MODEL:
+  NAME: 'sdnet18'    # 'sdnet18', 'sdnet34', 'sdnet18_all', 'sdnet34_all'
+
+  NUM_CLASSES: 1000
+  IMAGE_SIZE:
+    - 224
+    - 224
+
+  NUM_LAYERS: 2      # num of iterations for fista algorithm
+  NONEGATIVE: True   # non-negative constrain for the feature z.
+  PAD_MODE: 'constant'  # 'constant', 'reflect', 'replicate', 'circular'
+
+  SHORTCUT: False
+  MU: 0.0            # parameter for L2
+  LAMBDA:            # parameter for L1
+    - 0.1
+
+DATASET:
+  ROOT: '/home/peter/Data/ILSVRC2012'
+  DATASET: 'imagenet'
+
+TRAIN:
+  OPTIMIZER: 'sgd'
+  MOMENTUM: 0.9
+  WD: 0.0001
+  NESTEROV: False
+  END_EPOCH: 100
+  BATCH_SIZE: 512
+
+  LR: 0.1
+  LR_SCHEDULER: 'step'
+  LR_FACTOR: 0.1
+  LR_STEP:
+    - 30
+    - 60
+    - 90
+
+
+
