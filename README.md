@@ -103,7 +103,6 @@ You can also directly download the visualization results of the hidden features 
 <img src="figs/viz_imgnt.png"  width="600">
 </p>
 
-
 ## Citation
 
 If you find SDNet useful in your research, please consider citing:
