@@ -19,7 +19,7 @@ We show that such models have equally strong empirical performance on CIFAR-10, 
 By leveraging stable recovery property of sparse modeling, we further show that such models can be much more robust to input corruptions as well as adversarial perturbations in testing through a simple proper trade-off between sparse regularization and data reconstruction terms.
 
 <p align="center">
-<img src="figs/CSC.png"  width="600">
+<img src="figs/CSC.png"  width="300">
 </p>
 
 ## Reproducing Results
@@ -36,6 +36,7 @@ source activate sdnet
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 mkdir data logs
 ```
+
 
 ### Training
 
@@ -102,6 +103,16 @@ You can also directly download the visualization results of the hidden features 
 <p align="center">
 <img src="figs/viz_imgnt.png"  width="600">
 </p>
+
+### Sparse Coding layer for 1D Case
+
+We also offer a version for 1D case for applications like voice or language.
+
+```bash
+cd Lib/models
+python msc_layer.py
+```
+
 
 ## Citation
 
