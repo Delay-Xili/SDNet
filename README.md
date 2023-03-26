@@ -81,7 +81,7 @@ You can download our trained models from the following links:
 |             | SDNet-18-all|   no        |  77.28 %    | [link](https://drive.google.com/drive/folders/1Jx871n7JAFVCkly8JRCBqKeQAnCNI-rH?usp=sharing)    |
 | ImageNet-1k | SDNet-18    |   yes       |  69.78 %    | [link](https://drive.google.com/drive/folders/1USIY9H3Aa4EV0K0T71gCe2VDSbyBIVO0?usp=sharing)    |
 |             | SDNet-18-all|   yes       |             | [TBD]()    |
-|             | SDNet-18-all|   no        |             | [TBD]()    |
+|             | SDNet-18-all|   no        |  69.03 %    | [link](https://drive.google.com/drive/folders/1uKl1QrZyR4M0tNu7d0EF8awQtg2kMLa-?usp=sharing)    |
 
 Each link includes the corresponding results, which consists of checkpoints files, training log files, and tensorboard file. <br>
 
@@ -106,7 +106,7 @@ You can also directly download the visualization results of the hidden features 
 
 ### Sparse Coding layer for 1D Case
 
-We also offer a version for 1D case for applications like voice or language.
+We also offer a version of 1D case for applications like voice or language.
 
 ```bash
 cd Lib/models
