@@ -80,7 +80,7 @@ You can download our trained models from the following links:
 |             | SDNet-18-all|   yes       |  77.89 %    | [link](https://drive.google.com/drive/folders/1XYtv8Oh4wgHhP_UAF2P0AZHG0fH6AQEc?usp=sharing)    |
 |             | SDNet-18-all|   no        |  77.28 %    | [link](https://drive.google.com/drive/folders/1Jx871n7JAFVCkly8JRCBqKeQAnCNI-rH?usp=sharing)    |
 | ImageNet-1k | SDNet-18    |   yes       |  69.78 %    | [link](https://drive.google.com/drive/folders/1USIY9H3Aa4EV0K0T71gCe2VDSbyBIVO0?usp=sharing)    |
-|             | SDNet-18-all|   yes       |             | [TBD]()    |
+|             | SDNet-18-all|   yes       |  69.68 %    | [link](https://drive.google.com/drive/folders/1vvXr96MBmTDxma6sC0FqQrPcvCO_hrh7?usp=sharing)    |
 |             | SDNet-18-all|   no        |  69.03 %    | [link](https://drive.google.com/drive/folders/1uKl1QrZyR4M0tNu7d0EF8awQtg2kMLa-?usp=sharing)    |
 
 Each link includes the corresponding results, which consists of checkpoints files, training log files, and tensorboard file. <br>
